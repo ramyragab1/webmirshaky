@@ -1,0 +1,143 @@
+{
+  "HorizonLayout": [
+    {
+      "layout": "logo",
+      "showMenu": true,
+      "showSearch": true,
+      "showLogo": true
+    },
+    {
+      "layout": "bannerImage",
+      "isSlider": true,
+      "autoPlay": true,
+      "showNumber": false,
+      "design": "default",
+      "showBackGround": true,
+      "radius": 10,
+      "items": [
+        {
+          "image": "https://www.mirshaky.com/wp-content/uploads/website-slider-artes-03-1.jpg",
+          "padding": 10,
+          "radius": 10
+        },
+        {
+          "image": "https://www.mirshaky.com/wp-content/uploads/website-slider-XX-01.jpg",
+          "padding": 10,
+          "radius": 10
+        },
+        {
+          "image": "https://www.mirshaky.com/wp-content/uploads/website-slider-11-scaled.jpg",
+          "padding": 10,
+          "radius": 10
+        }
+      ]
+    },
+    {
+      "layout": "bannerImage",
+      "items": [
+        {
+          "image": "https://jsonremoteconfig.vercel.app/mirshaky/img/MEET-OUR-BRANDS.png",
+          "padding": 10
+        }
+      ]
+    },
+    {
+      "layout": "bannerImage",
+      "items": [
+        {
+          "category": 252,
+          "image": "https://jsonremoteconfig.vercel.app/mirshaky/img/01.png",
+          "padding": 10,
+          "radius": 10
+        },
+        {
+          "category": 250,
+          "image": "https://jsonremoteconfig.vercel.app/mirshaky/img/02.png",
+          "padding": 10,
+          "radius": 10
+        }
+      ]
+    },
+    {
+      "layout": "bannerImage",
+      "items": [
+        {
+          "category": 266,
+          "image": "https://jsonremoteconfig.vercel.app/mirshaky/img/03.png",
+          "padding": 10,
+          "radius": 10
+        },
+        {
+          "category": 282,
+          "image": "https://jsonremoteconfig.vercel.app/mirshaky/img/04.png",
+          "padding": 10,
+          "radius": 10
+        }
+      ]
+    },
+    {
+      "layout": "bannerImage",
+      "items": [
+        {
+          "category": 254,
+          "image": "https://jsonremoteconfig.vercel.app/mirshaky/img/05.png",
+          "padding": 10,
+          "radius": 10
+        }
+      ]
+    },
+    {
+      "name": "Our Sale",
+      "layout": "threeColumn",
+      "isSnapping": true,
+      "ratioImageProduct": 2,
+      "ratioInfoProduct": 1,
+      "onSale": true
+    },
+    {
+      "name": "Our Top Collection",
+      "layout": "threeColumn",
+      "isSnapping": true,
+      "ratioImageProduct": 2,
+      "ratioInfoProduct": 1,
+      "featured": true
+    }
+  ],
+  "VerticalLayout": {
+    "layout": "pinterest",
+    "name": "Our Collection"
+  },
+  "Setting": {
+    "MainColor": "#211F20",
+    "ProductListLayout": "list",
+    "ratioImageProduct": 2,
+    "ratioInfoProduct": 1,
+    "StickyHeader": true
+  },
+  "TabBar": [
+    {
+      "layout": "home",
+      "icon": "assets/icons/tabs/icon-home.png"
+    },
+    {
+      "layout": "category",
+      "categoryLayout": "animation",
+      "icon": "assets/icons/tabs/icon-category.png"
+    },
+    {
+      "layout": "search",
+      "icon": "assets/icons/tabs/icon-search.png"
+    },
+    {
+      "layout": "cart",
+      "icon": "assets/icons/tabs/icon-cart2.png"
+    },
+    {
+      "layout": "profile",
+      "icon": "assets/icons/tabs/icon-user.png"
+    }
+  ],
+  "OnBoarding": {
+    "data": []
+  }
+}
